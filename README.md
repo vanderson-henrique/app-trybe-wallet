@@ -1,8 +1,8 @@
-### Termos e acordos
+### Minhas observações
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
-
----
+- Neste projeto Pude aplicar meus conhecimentos em Redux amplamente;
+- Utilização de Regex e regras de validação
+- pude desenvolver um pouco mais de CSS para estilização da página;
 
 # Boas vindas ao repositório do projeto Trybe Wallet!
 
