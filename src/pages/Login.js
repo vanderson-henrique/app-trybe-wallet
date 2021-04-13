@@ -29,7 +29,7 @@ class Login extends React.Component {
     const { login, history } = this.props;
     const { email } = this.state;
     login(email);
-    return history.push('/carteira');
+    return history.push('/app-trybe-wallet/carteira');
   }
 
   // Referência desta função para validação de email:
