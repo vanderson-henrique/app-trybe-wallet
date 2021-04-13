@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: normal;
+  width: 500px;
+  height: 350px;
+  justify-content:space-around;
+  background-color: rgb(157, 228, 228);
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.Form h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 50px;
+}
+
+.container-form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+}
+
+.input {
+  width: 350px;
+  padding: 0.3em;
+}
+
+.Form button {
+  background: rgba(11, 38, 88, 0.952);
+  border: 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  color: white;
+  cursor: auto;
+  font-size: 1.2em;
+  justify-content: center;
+  padding: 0.2em 0.6em;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.Form label {
+  color: rgb(8, 8, 8);
+  left: 19px;
+  margin-bottom: 0.2em;
+  margin-right: 5px;
+}
+
+.Form input , select {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  padding: 0.2em;
+}
+
+button:disabled {
+  background-color: #ada6a6;
+}
+
+/* .container-login {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-login {
+  display: flex;
+  background-color: rgb(137, 143, 136);
+  align-items: center;
+  flex-direction: column;
+  height: 300px;
+  padding: 30px;
+  width: 500px;
+}
+
+.form-login button:disabled {
+  background: rgb(104, 109, 114);
+  text-decoration: none;
+}
+
+.container-login h1 {
+  font-family: fantasy;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.form-login input label {
+  padding-right: 200px;
+  margin: 50px;
+}
+
+.Form h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 60px;
+}
+
+.container-form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 500px;
+  width: 100%;
+}
+
+.link-config {
+  left: 100px;
+}
+
+.container-login {
+  
+  height: 100%;
+  width: 100%;
+} */

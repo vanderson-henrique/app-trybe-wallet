@@ -1,7 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
+import { Button, Form } from 'react-bootstrap';
 import { loginAction } from '../actions';
+import './login.css';
 
 class Login extends React.Component {
   constructor(props) {
@@ -51,40 +53,49 @@ class Login extends React.Component {
 
   render() {
     const { email, password, isDisabled } = this.state;
-    // const numberCharacteres = 5;
-    // const validate = password.length > numberCharacteres && this.validarEmail(email);
     return (
-      <div className="container-login">
+      <div className="container-form-login">
+        <Form className="Form">
         <h1>Trybe Wallet</h1>
-        <form className="form form-login">
-          <label htmlFor="email">
-            Email
-            <input
-              data-testid="email-input"
-              placeholder="Insira seu e-mail"
-              id="email"
-              name="email"
-              type="text"
-              value={ email }
-              onChange={ this.changeValue }
-            />
-          </label>
-          <label htmlFor="password">
-            Password
-            <input
-              data-testid="password-input"
-              placeholder="Insira sua senha"
-              id="password"
-              name="password"
-              type="password"
-              value={ password }
-              onChange={ this.changeValue }
-            />
-          </label>
-          <button type="button" disabled={ isDisabled } onClick={ this.clickLogin }>
-            Entrar
-          </button>
-        </form>
+        <Form.Group controlId="formBasicName">
+          <Form.Label htmlFor="name">
+            email
+          </Form.Label>
+          <Form.Control
+            className="input"
+            data-testid="email-input"
+            type="text"
+            id="email"
+            name="email"
+            value={ email }
+            onChange={ this.changeValue }
+            placeholder="Insira um e-mail válido"
+          />
+        </Form.Group>
+        <Form.Group controlId="formBasicName">
+          <Form.Label htmlFor="name">
+            password
+          </Form.Label>
+          <Form.Control
+            className="input"
+            data-testid="password-input"
+            type="password"
+            id="password"
+            name="password"
+            value={ password }
+            onChange={ this.changeValue }
+            placeholder="Insira uma senha de 6 dígitos"
+          />
+        </Form.Group>
+        <Button
+          variant="primary"
+          type="button"
+          disabled={ isDisabled }
+          onClick={ this.clickLogin }
+        >
+          Entrar
+        </Button>
+        </Form>
       </div>
     );
   }
