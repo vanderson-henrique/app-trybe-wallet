@@ -107,7 +107,7 @@
   width: 100%;
 }
 
-.table-header td {
+.table-header th {
   max-width: 15px;
 }
 
@@ -117,7 +117,7 @@
   max-width: 15px;
 }
 
-.table-header tr td {
+.table-header tr th {
   background-color: teal;
 }
 

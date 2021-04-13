@@ -11,18 +11,19 @@ class ExpenseTable extends React.Component {
     return (
       <div>
         <table className="table-header">
+        <thead>
           <tr>
-            <td>Descrição</td>
-            <td>Tag</td>
-            <td>Método de pagamento</td>
-            <td>Valor</td>
-            <td>Moeda</td>
-            <td>Câmbio utilizado</td>
-            <td>Valor convertido</td>
-            <td>Moeda de conversão</td>
-            <td>Editar/Excluir</td>
+            <th>Descrição</th>
+            <th>Tag</th>
+            <th>Método de pagamento</th>
+            <th>Valor</th>
+            <th>Moeda</th>
+            <th>Câmbio utilizado</th>
+            <th>Valor convertido</th>
+            <th>Moeda de conversão</th>
+            <th>Editar/Excluir</th>
           </tr>
-        </table>
+          </thead>
         {expenses ? expenses.map((expense) => {
           const {
             value,
@@ -37,7 +38,7 @@ class ExpenseTable extends React.Component {
           const currencyExchange = exchangeRates[currency].ask;
           const valueExchange = parseFloat(value) * currencyExchange;
           return (
-            <table key={ id } className="table-data">
+            <tbody key={ id } className="table-data">
               <tr>
                 <td>{description}</td>
                 <td>{tag}</td>
@@ -64,9 +65,10 @@ class ExpenseTable extends React.Component {
                   </button>
                 </td>
               </tr>
-            </table>
+              </tbody>
           );
         }) : ''}
+        </table>
       </div>
     );
   }
