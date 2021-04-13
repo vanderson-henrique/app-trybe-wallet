@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ed235812a3921a0baf996c55b955e49a",
+    "revision": "d60bcf1b899c6b6cddbbd760202a79b5",
     "url": "/app-trybe-wallet/index.html"
   },
   {
-    "revision": "7da760cac4e4bb860e80",
-    "url": "/app-trybe-wallet/static/css/main.4a26f6c0.chunk.css"
+    "revision": "100f094bfac55f711d0b",
+    "url": "/app-trybe-wallet/static/css/main.53329b8d.chunk.css"
   },
   {
-    "revision": "f195488dc805a31b9bdd",
-    "url": "/app-trybe-wallet/static/js/2.152886ca.chunk.js"
+    "revision": "76936f13a8f30903f4fd",
+    "url": "/app-trybe-wallet/static/js/2.6472db98.chunk.js"
   },
   {
-    "revision": "9b318b6fb13190fe82c0677e9264b3c7",
-    "url": "/app-trybe-wallet/static/js/2.152886ca.chunk.js.LICENSE.txt"
+    "revision": "c87e50d81cc7b5311525cc6fd5482ea5",
+    "url": "/app-trybe-wallet/static/js/2.6472db98.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "7da760cac4e4bb860e80",
-    "url": "/app-trybe-wallet/static/js/main.05a3217d.chunk.js"
+    "revision": "100f094bfac55f711d0b",
+    "url": "/app-trybe-wallet/static/js/main.7c9c3b06.chunk.js"
   },
   {
     "revision": "b164bd5dde281227b3f2",
